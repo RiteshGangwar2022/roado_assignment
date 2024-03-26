@@ -1,0 +1,8 @@
+.metrics {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 100%;
+  }
+  
+  

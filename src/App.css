@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Dashboard {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #ffffff !important;
+        font-size: 16px !important;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    .main {
+        padding: 88px 16px 0 !important;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    .sidebar {
+        display: none !important;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .navbar {
+        padding: 16px 16px 0 16px !important;
+        border-bottom: none !important;
+        height: 56px !important;
+    }
+
+    .navbar_logo {
+        display: block !important; 
+    }
+
+    .navbar_items_iontainer {
+        display: none !important;
+    }
+
+    .navbar_items {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .search {
+        position: absolute !important;
+        top: 86px !important;
+        margin-left: 0 !important;
+        width: calc(100% - 32px) !important;
+    }
+
+    .banner {
+        flex-direction: column !important;
+        gap: 10px !important;
+        height: auto !important;
+        padding: 32px !important;
+        margin-top: 0 !important;
+    }
+
+    .banner_title {
+        text-align: center !important;
+    }
+
+    .banner_para {
+        text-align: center !important;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+
+    .metrics {
+        flex-direction: column !important;
+        gap: 16px !important;
+    }
+
+    .card {
+        flex-direction: column !important;
+        padding: 12px 16px !important;
+        width: 100% !important;
+        height: 132px !important;
+    }
+
+    .cardTitle {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+
+    .cardSubtitle {
+        font-size: 22px !important;
+        line-height: 28px !important;
+    }
+
+    .Line {
+        width: calc(100% - 32px) !important;
+    }
+
+    .x-axis {
+        margin-left: 41px !important;
+    }
+
+    .table {
+        table-layout: auto !important;
+        min-width: 960px !important;
+    }
 }

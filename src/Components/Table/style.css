@@ -1,0 +1,168 @@
+.tableContainer { 
+    width: 100%;
+    border-radius: 12px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    gap: 0;
+    margin-bottom: 32px;
+}
+
+.tableHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    border-bottom: 1px solid #eaecf0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.tableTitle {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #282828;
+}
+
+.threedots {
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.tableContentContainer {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table thead {
+    background: #f9fafb;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #5f6980;
+}
+
+.table thead tr {
+    height: 54px;
+}
+
+.table > thead th {
+    font-weight: normal;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.table > tbody tr {
+    border-bottom: 1px solid #eaecf0;
+    height: 77px;
+}
+
+.table > tbody tr:hover {
+    background-color: #f2f4f7;
+}
+
+.table > tbody td {
+    padding-left: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #5f6980;
+}
+
+.tableCompany {
+    display: flex;
+    align-items: center;
+}
+
+.tableLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 14px;
+    background: #ffffff;
+    box-shadow: 0em 1px 11px rgba(0, 0, 0, 0.06);
+    border-radius: 11px;
+}
+
+.tableLogo img {
+    width: 30px;
+    height: 30px;
+}
+
+.tableApp {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #282828;
+}
+
+.tableBadge {
+    display: inline-block;
+    padding: 2px 11px;
+    border-radius: 114px;
+}
+
+.tableStatus {
+    margin: 0;
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.tableBadge--active {
+    background: #dcfff5;
+    color: #20c997;
+}
+
+.tableBadge--pending {
+    background: #ffead8;
+    color: #fd7e14;
+}
+
+.tableBadge--cancelled {
+    background: #f2f4f7;
+    color: #5f6980;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding-top: 24px;
+}
+
+.pageNumber {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #282828;
+}
+
+.arrow {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}

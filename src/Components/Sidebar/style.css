@@ -1,0 +1,128 @@
+.menu_section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu_items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #5f6980;
+}
+
+.menu_item_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.menu_item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 12px 0;
+    gap: 16px;
+}
+
+.sidebar_logo {
+    position: relative;
+    width: 99.2px;
+    height: 22.25px;
+    top: 18px;
+    left: 20px;
+    margin: 18px 0 54px 20px;
+}
+
+.sidebar_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 20px;
+    gap: 62px;
+    border-top: 1px solid #eaecf0;
+}
+
+.menu_title {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #9d9fa2;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 28px;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.menu_item_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 232px;
+    border: 0px 1px 0px 0px solid;
+    height: 1024px;
+    background-color: #ffffff;
+    border-right: 1px solid #eaecf0;
+}
+
+.Updown {
+    width: 25px;
+    height: 20px;
+    top: 1px;
+    left: 172px;
+    padding: 0px 5px 0px 5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.footer_icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu_item_title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.items_title {
+    margin: 0;
+    cursor: pointer;
+}
+
+.Active {
+    color: #282828;
+}
